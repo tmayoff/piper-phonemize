@@ -1,0 +1,10 @@
+[wrap-file]
+directory = onnxruntime-linux-x64-1.14.1
+
+source_url = https://github.com/microsoft/onnxruntime/releases/download/v1.14.1/onnxruntime-linux-x64-1.14.1.tgz
+source_filename = onnxruntime-1.14.1.tgz
+source_hash = 010585f534d822bf02d54c7cfc53b57aa3eb0cf34f8fb7503ee519ed18e25d29
+patch_directory = onnxruntime
+
+[provide]
+onnxruntime = onnxruntime_dep
