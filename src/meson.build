@@ -5,7 +5,9 @@ piper_phonemize_lib = static_library(
     'tashkeel.cpp',
     dependencies: [espeak, onnxruntime],
 )
+
 piper_phonemize_dep = declare_dependency(
+    include_directories: '.',
     dependencies: [espeak, onnxruntime],
     link_with: piper_phonemize_lib,
 )
