@@ -1,8 +1,6 @@
-project('piper-phonemize', 'cpp')
+project('piper-phonemize', 'cpp', default_options: ['cpp_std=c++17'])
 
 cmake = import('cmake')
-
-# espeak_proj = cmake.subproject('espeak')
 
 espeak = dependency('espeak-ng')
 onnxruntime = dependency('onnxruntime')
