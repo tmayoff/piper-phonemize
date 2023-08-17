@@ -1,6 +1,0 @@
-[wrap-git]
-url = https://github.com/tmayoff/espeak-ng.git
-revision = master
-
-[provide]
-espeak-ng = espeak_dep
